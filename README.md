@@ -1,2 +1,2 @@
-# Computational-Hydrology
-The webpages of the NCAR/RAL/HAP Computational Hydrology Group
+# Dos and Don'ts 
+Platform for information exchange on the proper use of climate information in water resource planning and mangement.

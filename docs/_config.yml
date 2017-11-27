@@ -43,211 +43,67 @@ address:
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
-# Members information. Shown on About page.
-members:
-  - name: Martyn Clark
-    position: Lead, Senior Scientist
-    text: "numerical modeling and prediction of hydrologic processes"
-    img: martyn.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:mclark at ucar.edu
-      - title: link
-        url: https://staff.ucar.edu/users/mclark
-  - name: Andy Wood
-    position: Lead, Project Scientist III
-    text: "hydrologic modeling applications: stream forecasting, climate change"
-    img: andywood.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:andywood at ucar.edu
-      - title: link
-        url: https://staff.ucar.edu/users/andywood
-  - name: Ethan Gutmann
-    position: Lead, Project Scientist II
-    text: climate downscaling, hydrologic processes, and alpine snowpack
-    img: ethan.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:gutmann at ucar.edu
-      - title: link
-        url: https://staff.ucar.edu/users/gutmann
-  - name: Andrew Newman
-    position: Project Scientist I
-    text: observations, uncertainty, land-surface and mesoscale modeling
-    img: andynewman.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:anewman at ucar.edu
-      - title: link
-        url: https://staff.ucar.edu/users/anewman
+# Contributor information. Shown on About page.
+contributors:
   - name: Julie Vano
-    position: Project Scientist I
-    text: connecting climate science and water resource applications
+    position: NCAR
     img: julie.jpg
     social:
       - title: envelope #use for email address
         url: mailto:jvano at ucar.edu
       - title: link
         url: https://staff.ucar.edu/users/jvano
-  - name: Nans Addor
-    position: Postdoctoral Researcher
-    text: "hydrological modeling under present and future climate"
-    img: nans.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:naddor at ucar.edu
-      - title: link
-        url: https://staff.ucar.edu/browse/people/28687
-  - name: Flavio Lehner
-    position: Postdoctoral Researcher
-    text: "hydroclimatic changes and their implications for water resources"
-    img: flaviolehner.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:flehner at ucar.edu
-      - title: link
-        url: http://www.climate.unibe.ch/~lehner/
-  - name: Joe Hamman
-    position: Postdoctoral Researcher
-    text: "large scale hydrologic modeling of present and future climate"
-    img: joehamman.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:jhamman at ucar.edu
-      - title: link
-        url: https://staff.ucar.edu/users/jhamman
-
-# Collaborator information. Shown on About page.
-collaborators:
   - name: Jeff Arnold
     position: U.S. Army Corps of Engineers
     img: jeffarnold.jpg
     social:
       - title: envelope #use for email address
         url: mailto:Jeffrey.R.Arnold at usace.army.mil
-  - name: Levi Brekke
-    position: Bureau of Reclamation
-    img: levibrekke.jpg
-    social:
-      - title: link
-        url: http://www.usbr.gov/research/about/contact.html
-  - name: Kenneth Nowak
-    position: Bureau of Reclamation
-    img: kennowak.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:knowak at usbr.gov
-      - title: link
-        url: http://www.usbr.gov/research/about/contact.html
   - name: Bart Nijssen
     position: University of Washington
     text: Research Professor
     img: bartnijssen.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:nijssen at uw.edu
       - title: link
         url: http://uw-hydro.github.io/current_member/bart_nijssen
-  - name: Elizabeth Clark
-    position: University of Washington
-    text: PhD Candidate
-    img: elizabethclark.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:eclark2 at uw.edu
-  - name: Jessica Lundquist
-    position: University of Washington
-    text: Associate Professor
-    img: jessicalundquist.jpg
+  - name: Martyn Clark
+    position: NCAR
+    img: martyn.jpg
     social:
       - title: link
-        url: http://depts.washington.edu/mtnhydr/people/
-  - name: Andrew Bennett
-    position: University of Washington
-    text: PhD Candidate
-    img: andrewbennett.jpg
+        url: https://staff.ucar.edu/users/mclark
+  - name: Andy Wood
+    position: NCAR
+    img: andywood.jpg
     social:
       - title: link
-        url: http://uw-hydro.github.io/current_member/andrew_bennett
-  - name: Rajagopalan Balaji
-    position: University of Colorado Boulder
-    text: Professor
-    img: balaji.jpg
+        url: https://staff.ucar.edu/users/andywood
+  - name: Ethan Gutmann
+    position: NCAR
+    img: ethan.jpg
     social:
       - title: link
-        url: http://www.colorado.edu/ceae/rajagopalan-balaji
-  - name: Sarah Baker
-    position: University of Colorado Boulder
-    text: PhD Candidate
-    img: sarahbaker.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:sabaker at usbr.gov
-  - name: ChengCheng Huang
-    position: Beijing Normal University
-    text: PhD Candidate
-    img: chengchenghuang.jpg
-    social:
-      - title: link #use for email address
-        url: https://www.researchgate.net/profile/Chengcheng_Huang2
-  - name: Tom Giambelucca
-    position: University of Hawaii
-    img: tomgiambelucca.jpg
+        url: https://staff.ucar.edu/users/gutmann
+  - name: Nans Addor
+    position: University of East Anglia
+    text: "hydrological modeling under present and future climate"
+    img: nans.jpg
     social:
       - title: link
-        url: http://www.geography.hawaii.edu/faculty/tomgiambelluca.html
-  - name: Ryan Longman
-    position: University of Hawaii
-    img: ryanlongman.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:rlongman at hawaii.edu
-      - title: link
-        url: https://sites.google.com/a/hawaii.edu/rlongman/
-  - name: Jessica Cherry
-    position: University of Alaska
-    img: jessicacherry.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:jecherry2 at alaska.edu
-  - name: Matthew Sturm
-    position: University of Alaska
-    img: matthewsturm.jpg
+        url: https://www.researchgate.net/profile/Nans_Addor
+  - name: Joe Hamman
+    position: NCAR
+    img: joehamman.jpg
     social:
       - title: link
-        url: http://www.gi.alaska.edu/directory/matthew-sturm
-  - name: Glen Liston
-    position: Colorado State University
-    img: glenliston.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:Glen.Liston at colostate.edu
-  - name: Luis Samaniego
-    position: UFZ Helmholtz Institute, Germany
-    img: samaniego.jpg
+        url: https://staff.ucar.edu/users/jhamman
+  - name: Flavio Lehner
+    position: NCAR
+    img: flaviolehner.jpg
     social:
       - title: link
-        url: https://www.ufz.de/index.php?en=38094
-  - name: Oldrich Rakovec
-    position: UFZ Helmholtz Institute, Germany
-    img: oldrichrakovec.jpg
-    social:
-      - title: link #use for email address
-        url: https://www.ufz.de/index.php?en=38114
-  - name: Stephan Thober
-    position: UFZ Helmholtz Institute, Germany
-    img: stephanthober.jpg
-    social:
-      - title: link #use for email address
-        url: https://www.ufz.de/index.php?en=38099
-  - name: Idar Barstad
-    position: Uni Research Computing, Norway
-    text: Researcher
-    img: idarbarstad.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:Idar.Barstad at uni.no
+        url: http://climatehomes.unibe.ch/~lehner/
+
 # Sponsor information. Shown on Home and About pages.
 sponsors:
   - name: USACE
@@ -260,12 +116,3 @@ sponsors:
     img: NOAA.jpg
   - name: NSF
     img: NSF.jpg
-
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "IS this still here"
-
-# Testimonial content. Shown on Home and About page.
-#testimonial:
-#    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-#    author: Marcel Newman
-#    position: WEB DESIGNER - BLACKTIE.CO

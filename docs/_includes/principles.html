@@ -1,3 +1,4 @@
+<a name="principles" class="anchor"></a>
 <div id="portfoliowrap">
     <div class="portfolio-centered">
         {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
@@ -5,7 +6,7 @@
             {% for project in site.categories['principles'] limit:include.limit %}
                 <div class="portfolio-item graphic-design">
                     <div class="he-wrap tpl6">
-                    <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.img }}" alt="">
+                    <img src="{{ "/assets/img/about/" | prepend: site.baseurl }}{{ project.img }}" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">{{ project.shorttitle }}</h3>

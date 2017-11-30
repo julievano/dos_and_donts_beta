@@ -7,7 +7,7 @@ ref: GMET
 date:   2017-08-01 16:54:46
 categories:
 - study_design
-img: do_recognize_benefits.png
+img: benefits.png
 img2: gmet.png
 sponsors: U.S. Army Corps of Engineers, Bureau of Reclamation
 teamline1: "NCAR: Martyn Clark (PI), Andrew Newman, Andy Wood, Ethan Gutmann"

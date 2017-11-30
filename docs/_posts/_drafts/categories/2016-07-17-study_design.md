@@ -1,13 +1,13 @@
 ---
 layout: model
-title:  "Do recognize benefits that go beyond climate change preparedness"
-shorttitle: "Do recongize benefits"
+title:  "It is important"
+shorttitle: "Meteorological Datasets"
 tagline: "a tool that generates high-quality, probabilistic gridded meteorological fields for use in climate model evaluation, hydrologic modeling, and hydrologic data assimilation"
 ref: GMET 
 date:   2017-08-01 16:54:46
 categories:
-- study_design
-img: detail.png
+- categories
+img: study_design.png
 img2: gmet.png
 sponsors: U.S. Army Corps of Engineers, Bureau of Reclamation
 teamline1: "NCAR: Martyn Clark (PI), Andrew Newman, Andy Wood, Ethan Gutmann"

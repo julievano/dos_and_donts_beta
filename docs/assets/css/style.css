@@ -512,3 +512,10 @@ a.anchor{
     top: -80px;
     visibility: hidden;
 }
+
+.anchor::before {
+    content: "";
+    display: block;
+    margin-top: -80px;
+    position: absolute;
+}

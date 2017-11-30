@@ -1,15 +1,14 @@
 ---
 layout: contact
-title: Contact
+title: Join the conversation
 permalink: /contact/
 ---
-
-<div id="contactwrap"></div>
-
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-8">
-            <h4>Just Get In Touch!</h4>
+            <p>Our contribution process will evolve with time and based on your feedback.  Please let us know what you think and the perspective you bring (e.g., what aspect of water management and climate change information you work on).</p>
+            <h6><p>&nbsp</p></h6>
+            <h4>Share your insights</h4>
             <div class="hline"></div>
                 <p>{{ site.about }}</p>
                 <form role="form">
@@ -29,23 +28,11 @@ permalink: /contact/
                     <label for="message1">Message</label>
                     <textarea class="form-control" id="message1" rows="3"></textarea>
                   </div>
+                  <p> Note: form does not yet work.  Use this <a href="mailto:jvano at ucar.edu">link</a> instead. </p>
                   <button type="submit" class="btn btn-theme">Submit</button>
                 </form>
         </div><! --/col-lg-8 -->
-
         <div class="col-lg-4">
-            <h4>Our Address</h4>
-            <div class="hline"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
-                <p>
-                    Email: {{ site.email }}<br/>
-                    Tel: {{ site.tel }}
-                </p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
         </div>
     </div><! --/row -->
 </div><! --/container -->

@@ -1,5 +1,5 @@
 ---
-layout: model
+layout: do_dont
 title:  "Do recognize benefits that go beyond climate change preparedness"
 shorttitle: "Do recongize benefits"
 tagline: "a tool that generates high-quality, probabilistic gridded meteorological fields for use in climate model evaluation, hydrologic modeling, and hydrologic data assimilation"

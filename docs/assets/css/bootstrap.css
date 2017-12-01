@@ -531,6 +531,12 @@ a.text-warning:hover {
 a.text-danger:hover {
   color: #843534;
 }
+.text-toggle[aria-expanded=false] .text-expanded {
+  display: none;
+}
+.text-toggle[aria-expanded=true] .text-collapsed {
+  display: none;
+}
 .bg-primary {
   color: #fff;
   background-color: #428bca;

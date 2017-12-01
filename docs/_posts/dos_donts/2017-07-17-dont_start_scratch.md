@@ -1,28 +1,25 @@
 ---
-layout: model
-title:  "Do recognize benefits that go beyond climate change preparedness"
-shorttitle: "Do recongize benefits"
-tagline: "a tool that generates high-quality, probabilistic gridded meteorological fields for use in climate model evaluation, hydrologic modeling, and hydrologic data assimilation"
-ref: GMET 
-date:   2017-08-01 16:54:46
+layout: do_dont
+title:  "Don’t start from scratch; leverage the work and expertise of others"
+tagline: ""
+ref: dont_start_scratch 
+date:   2017-03-01 16:54:46
 categories:
 - study_design
 img: scratch.png
-img2: gmet.png
-sponsors: U.S. Army Corps of Engineers, Bureau of Reclamation
-teamline1: "NCAR: Martyn Clark (PI), Andrew Newman, Andy Wood, Ethan Gutmann"
-teamline2: "U.S. Army Corps of Engineers: Jeff Arnold"
-teamline3: "Bureau of Reclamation: Levi Brekke"
-contacts: "Contact: Andy Newman - anewman@ucar.edu | Julie Vano - jvano@ucar.edu"
-projectlink: meteorological_datasets
-tags: [models]
+img2:
+tags: []
 ---
 
-Development of the Gridded Meteorological Ensemble Tool (GMET) allows for quantification of uncertainty for station-based gridded precipitation and temperature datasets, specifically:
+<h3><a class="text-toggle" data-toggle="collapse" data-target="#demo" aria-expanded="true">
+       <span class="text-collapsed glyphicon glyphicon-chevron-right"></span>
+       <span class="text-expanded glyphicon glyphicon-chevron-down"></span>
+    </a>Why?</h3>
 
-*	GMET completes the many steps needed to construct gridded meteorological ensembles: (1) ingests station data (current simulations draw from over 12,000 unique stations), (2) ensures stations are serially complete (rejects records too short to be validated and fills data gaps using well-established methods), (3) interpolates the serially-complete precipitation and temperature time series from station data to estimate the probability of precipitation occurrence and probability distributions of precipitation amounts, and (4) generates ensemble gridded spatial fields using spatially and temporally correlated random fields to sample from estimated distributions generated in the earlier step, which allows for consistent estimates of uncertainty in both space and time.  The probabilistic interpolation approach is detailed in Clark and Slater [2006].
+<div id="demo" class="collapse"">
+In the past two decades, the number of studies and people working on applying climate change information to water management and planning has increased (EPA and CWDR 2011; Reclamation 2013). Therefore, those just beginning do not need to start from scratch. There is a steadily growing resource of climate change information, guidance, case studies, and networks to connect to. Increasingly more organizations, both public and private sector, exist that serve to connect practitioners with researchers to generate more decision-relevant information (for example, see the diversity of organizations involved in creating guidance documents in Table 1). These efforts are underway and increasing in many arenas (e.g., public utilities, federal and state agencies, private sector, non-governmental organizations) throughout the world.  Because climate science requires complex models that may not be well-understood by water managers, and climate scientists are unfamiliar with challenges of planning, designing, operating and maintaining water systems, building partnerships, trust, and shared resources between information producers and users is critical, and an increasing number of guidance documents exist on how to effectively foster these partnerships (Jacobs 2002; Ferguson et al. 2014; Addor et al. 2015; Beier et al. 2016).
+</div>
 
-*	GMET has been used to develop a first-of-its-kind ensemble dataset of daily precipitation and temperature at one-eighth degree spatial resolution for the contiguous United States from 1980 to 2012. The 100-member ensemble dataset, described in Newman et al. [2015], compares well with established data products, reflects observational and interpolation uncertainty, and is freely available at: http://dx. doi.org/10.5065/D6TH8JR2.
+<h3>How to discover who is doing what, where?</h3>
 
-*	GMET produced ensembles have been used in hydrologic data assimilation (e.g., to evaluate the potential for snow data assimilation to improve seasonal streamflow prediction across the western US) and high-resolution regional climate model evaluation.
 

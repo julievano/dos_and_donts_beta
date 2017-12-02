@@ -4,6 +4,7 @@
 title: HAP | COMPUTATIONAL HYDROLOGY
 groupname: DOS AND DON'TS
 description: "a set of guidelines for using climate information in water resource planning and management"
+version: v1.0
 
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl:   #'' should be ok, if doesn't work try a /

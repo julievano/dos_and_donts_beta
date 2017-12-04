@@ -1,28 +1,16 @@
 ---
-layout: model
-title:  "Principle: Models are useful tools, if used appropriately"
-shorttitle: "Meteorological Datasets"
-tagline: "a tool that generates high-quality, probabilistic gridded meteorological fields for use in climate model evaluation, hydrologic modeling, and hydrologic data assimilation"
-ref: GMET 
+layout: principle
+title: Guiding Principle
+principle:  "Models are useful tools, if used appropriately."
+shorttitle: "Our second guiding principle" 
+tagline: "click here to read more (version 1.0)"
 date:   2017-07-01 16:54:46
 categories:
 - principles
 img: principle2.png
-img2: gmet.png
-sponsors: U.S. Army Corps of Engineers, Bureau of Reclamation
-teamline1: "NCAR: Martyn Clark (PI), Andrew Newman, Andy Wood, Ethan Gutmann"
-teamline2: "U.S. Army Corps of Engineers: Jeff Arnold"
-teamline3: "Bureau of Reclamation: Levi Brekke"
-contacts: "Contact: Andy Newman - anewman@ucar.edu | Julie Vano - jvano@ucar.edu"
-projectlink: meteorological_datasets
-tags: [models]
+img2: 
+tags: []
 ---
-
-Development of the Gridded Meteorological Ensemble Tool (GMET) allows for quantification of uncertainty for station-based gridded precipitation and temperature datasets, specifically:
-
-*	GMET completes the many steps needed to construct gridded meteorological ensembles: (1) ingests station data (current simulations draw from over 12,000 unique stations), (2) ensures stations are serially complete (rejects records too short to be validated and fills data gaps using well-established methods), (3) interpolates the serially-complete precipitation and temperature time series from station data to estimate the probability of precipitation occurrence and probability distributions of precipitation amounts, and (4) generates ensemble gridded spatial fields using spatially and temporally correlated random fields to sample from estimated distributions generated in the earlier step, which allows for consistent estimates of uncertainty in both space and time.  The probabilistic interpolation approach is detailed in Clark and Slater [2006].
-
-*	GMET has been used to develop a first-of-its-kind ensemble dataset of daily precipitation and temperature at one-eighth degree spatial resolution for the contiguous United States from 1980 to 2012. The 100-member ensemble dataset, described in Newman et al. [2015], compares well with established data products, reflects observational and interpolation uncertainty, and is freely available at: http://dx. doi.org/10.5065/D6TH8JR2.
-
-*	GMET produced ensembles have been used in hydrologic data assimilation (e.g., to evaluate the potential for snow data assimilation to improve seasonal streamflow prediction across the western US) and high-resolution regional climate model evaluation.
-
+<p>Watershed-relevant climate change scenarios can provide information useful in assessing climate change vulnerabilities and adaptation options. To generate climate change information at the global, planetary scale and make it relevant to local watersheds, many methodological choices must be made by both information producers (on how to generate the datasets) and users (on how to apply the climate data to their decision).  The US Army Corps of Engineers has 21 regional reports (http://www.corpsclimate.us/rccciareport.cfm) and Appendix A in Bureau of Reclamation’s (Reclamation) Literature Synthesis on Climate Change Implications for Water and Environmental Resources (Reclamation 2013) lists over 300 papers that could be leveraged as examples. </p>
+<p>Models, including global and regional climate models, as well as watershed models, are used to explicitly characterize possible futures as well as historical and current conditions. These simulated futures, when used together with simulated historical conditions, can then be used to assess potential changes.  More specifically, evaluating relative differences (modeled historical vs. modeled future) in system performance over time can provide improved perspectives on potential improvements as well as risks. In this, it is important to recognize that model outputs are not intended to be predictions, and should be treated instead as possible future ‘scenarios’ which can complement existing monitoring and performance evaluation systems.  They provide an opportunity to explore how natural and managed systems may respond to and influence future changes and to investigate uncertainties (Weaver et al. 2013; IPCC 2014b; Milly et al. 2015; Reclamation 2016).  Scenarios can be viewed as narratives that can be used to stress-test water systems and infrastructure (Moss et al. 2010; Weaver et al. 2013).  As such, a single stress test can be misleading when viewed in isolation; multiple stress tests, especially when they span a range of possible stresses, are preferred and can be added to as resources and time permit.</p>
+<p>In performing these stress tests, current approaches often capitalize on “ensembles of opportunity” – that is, collections of available datasets – to evaluate the range of future impacts and their uncertainties. This may be the most appropriate path forward at present; although as the field of climate change impacts advances and computing capacity improves, it will be possible to better understand and quantify underlying uncertainties (Harding et al. 2012; Gutmann et al. 2014; Clark et al. 2016) , evaluate and account for model dependencies (Knutti 2010b; Knutti et al. 2013; Bishop and Abramowitz 2013), and improve how models are selected for use including ensuring they capture features that make them appropriate for particular uses (Knutti 2010a; Tebaldi et al. 2011; Sanderson et al. 2015).  This and the forthcoming paper on navigating model selection (Appendix A) review important considerations for how models can be useful tools in exploring future change.</p>

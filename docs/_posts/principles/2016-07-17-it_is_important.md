@@ -1,28 +1,23 @@
 ---
-layout: model
-title:  "It is important"
-shorttitle: "Meteorological Datasets"
-tagline: "a tool that generates high-quality, probabilistic gridded meteorological fields for use in climate model evaluation, hydrologic modeling, and hydrologic data assimilation"
-ref: GMET 
+layout: principle
+title:  "Guiding Principle"
+principle: "It is important to evaluate climate risk."
+shorttitle: "Our first guiding principle"
+tagline: "click here to read more (version 1.0)"
+ref:  
 date:   2017-08-01 16:54:46
 categories:
 - principles
 img: principle1.png
-img2: gmet.png
-sponsors: U.S. Army Corps of Engineers, Bureau of Reclamation
-teamline1: "NCAR: Martyn Clark (PI), Andrew Newman, Andy Wood, Ethan Gutmann"
-teamline2: "U.S. Army Corps of Engineers: Jeff Arnold"
-teamline3: "Bureau of Reclamation: Levi Brekke"
-contacts: "Contact: Andy Newman - anewman@ucar.edu | Julie Vano - jvano@ucar.edu"
-projectlink: meteorological_datasets
-tags: [models]
+img2: 
+tags: []
 ---
 
-Development of the Gridded Meteorological Ensemble Tool (GMET) allows for quantification of uncertainty for station-based gridded precipitation and temperature datasets, specifically:
+<p>Stationarity is the concept that there are no changes in statistical distributions of geophysical variables (e.g. annual streamflow or annual flood peak) as a function of time. If the climate is stationary, past records can provide an adequate estimate of future variability in water-resource engineering. This concept has, however, been undermined by climate change (Milly et al. 2008) and long-term persistence more generally (Lins and Cohn 2011). Therefore, innovation is needed in considering future change and uncertainty in water resource planning (Milly et al. 2015; Clark et al. 2016).</p>
 
-*	GMET completes the many steps needed to construct gridded meteorological ensembles: (1) ingests station data (current simulations draw from over 12,000 unique stations), (2) ensures stations are serially complete (rejects records too short to be validated and fills data gaps using well-established methods), (3) interpolates the serially-complete precipitation and temperature time series from station data to estimate the probability of precipitation occurrence and probability distributions of precipitation amounts, and (4) generates ensemble gridded spatial fields using spatially and temporally correlated random fields to sample from estimated distributions generated in the earlier step, which allows for consistent estimates of uncertainty in both space and time.  The probabilistic interpolation approach is detailed in Clark and Slater [2006].
+<p>Evidence is overwhelming that climate change is already affecting managed and natural water systems (IPCC 2014b; Melillo et al. 2014), e.g., earlier snow melt in Western North America (Stewart et al. 2005), increases in annual precipitation in the US Midwest and Northeast (Georgakakos et al. 2014). The future evolution of the climate system depends on changes in external forcings (e.g., future emissions) and non-linear feedbacks, as well as large-scale human alterations such as land use change and demographic changes.  While there will always be uncertainty from human behavior, natural climate variations, and our ability to simulate them (IPCC 2012), there are many things we do know – e.g., warmer temperatures will increase evaporation potential, reduce snowpack, and change the seasonality and magnitude of streamflow. As a consequence, water resources planning studies must explicitly account for climate change alongside other important but uncertain changes such as population growth and land use change.  For agencies authorized by Congress to manage water on behalf of the nation now and in the future, to continue delivering on authorized purposes, it is important to understand changing conditions and prepare to operate in them.  This is simply due diligence and it would be neglectful and irresponsible to do nothing.</p>
+   
+<p>Money, livelihoods, and lives are at stake.  This urgency is evident in a policy statement from the American Society of Civil Engineers that emphasizes the need for consideration of climate change in planning, building, and maintaining U.S. infrastructure, “Engineering practices and standards associated with these facilities must be revised and enhanced to address climate change to ensure they continue to provide acceptably low risks of failures in functionality, durability and safety over their service lives” (ASCE 2015).</p> 
+<p>Additionally, climate change may provide opportunities that appropriate planning can exploit (Overpeck et al. 2011).  Examples include adjusting agricultural systems to benefit from longer growing seasons and adapting hydropower systems to adjust to changing hydrographs (NRC 2012a). It is also advantageous for those managing the systems to direct the climate change analysis (Reclamation 2014a).  It is easy to imagine challenges (e.g., confusion over operating constraints, unworkable adaptation measures) which could arise if external parties frame the climate change analysis instead of those involved in current system management.</p>
 
-*	GMET has been used to develop a first-of-its-kind ensemble dataset of daily precipitation and temperature at one-eighth degree spatial resolution for the contiguous United States from 1980 to 2012. The 100-member ensemble dataset, described in Newman et al. [2015], compares well with established data products, reflects observational and interpolation uncertainty, and is freely available at: http://dx. doi.org/10.5065/D6TH8JR2.
-
-*	GMET produced ensembles have been used in hydrologic data assimilation (e.g., to evaluate the potential for snow data assimilation to improve seasonal streamflow prediction across the western US) and high-resolution regional climate model evaluation.
-
+<p>Various methods exist to better understand and prepare for future changes in climate. All evaluations of a water system’s vulnerabilities need to start somewhere and can be refined and become more comprehensive over time. Depending on a project’s goals, resources, and other tradeoffs, consideration of climate impacts in water planning can occur at multiple levels, from general regional temperature trends to detailed evaluations of changes in reservoir storage. The option exists of doing nothing, but this should be a conscious and informed decision. If not, simply ignoring climate risk may result in being unprepared or unable to adapt – a risk water agencies, cities, counties, states, and many others are increasingly less willing to take (Vogel et al. 2015; EPA and CWDR 2011).</p>

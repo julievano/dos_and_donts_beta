@@ -5,11 +5,14 @@ layout: default
 {% include wrap.html %}
 
 <div class="container mtb2">
+
 <!--<h2>{% if page.img2 %}<img src="{{ "/assets/img/dos_donts/" | prepend: site.baseurl }}{{ page.img2 }}" alt="" height="5%" width="5%">{% endif %}{{ page.dodont }}</h2>--> 
-    <h2><span class="glyphicon glyphicon-remove-circle" style="color:FireBrick"></span> {{ page.dodont }}</h2>
+
+    {% if page.symbol == "dont" %}<h2><span class="glyphicon glyphicon-remove-circle" style="color:FireBrick"></span> {{ page.dodont }}</h2>{% endif %}
+    {% if page.symbol == "do" %}<h2><span class="glyphicon glyphicon-ok-circle" style="color:SeaGreen"></span> {{ page.dodont }}</h2>{% endif %}
     <div class="row">
         <div class="col-lg-6 col-lg-offset-1">
-            <div class="spacing"></div>
+            <!--<div class="spacing"></div>-->
         </div>
 
 	<div class="col-lg-5 col-lg-offset-1">
@@ -24,10 +27,11 @@ layout: default
 
 	    <div id="why" class="collapse">
 	    <p>{{ page.whyp1 }}</p>
+            <p>{{ page.whyp2 }}</p>
+            <p>{{ page.whyp3 }}</p>
 	    </div>
-
+            {% if page.faq1 %}<hr>
             <h3>Frequently Asked Questions</h3>
-
 	    <h4><a class="text-toggle" data-toggle="collapse" data-target="#faq1" aria-expanded="false">
                <span class="text-collapsed glyphicon glyphicon-chevron-right"></span>
                <span class="text-expanded glyphicon glyphicon-chevron-down"></span>
@@ -36,7 +40,8 @@ layout: default
             <div id="faq1" class="collapse">
             <p>{{ page.faq1p1 }}</p>
             <p>{{ page.faq1p2 }}</p>
-            </div>
+            <p>{{ page.faq1p3 }}</p>
+            </div>{% endif %}
 
             {% if page.faq2 %}<h4><a class="text-toggle" data-toggle="collapse" data-target="#faq2" aria-expanded="false">
                <span class="text-collapsed glyphicon glyphicon-chevron-right"></span>
@@ -46,9 +51,12 @@ layout: default
             <div id="faq2" class="collapse">
             <p>{{ page.faq2p1 }}</p>
             <p>{{ page.faq2p2 }}</p>
+            <p>{{ page.faq2p3 }}</p>
             </div>{% endif %}
 
-            {% if page.example1 %}<h3>Examples</h3>
+            {% if page.example1 %}
+            <hr>
+            <h3>Examples</h3>
             <h4><a class="text-toggle" data-toggle="collapse" data-target="#example1" aria-expanded="false">
                <span class="text-collapsed glyphicon glyphicon-chevron-right"></span>
                <span class="text-expanded glyphicon glyphicon-chevron-down"></span>
@@ -57,12 +65,25 @@ layout: default
             <div id="example1" class="collapse">
             <p>{{ page.example1p1 }}</p>
             <p>{{ page.example1p2 }}</p>
+            <p>{{ page.example1p3 }}</p>
+            </div>{% endif %}
+
+            {% if page.example2 %}<h4><a class="text-toggle" data-toggle="collapse" data-target="#example2" aria-expanded="false">
+               <span class="text-collapsed glyphicon glyphicon-chevron-right"></span>
+               <span class="text-expanded glyphicon glyphicon-chevron-down"></span>
+            </a>{{ page.example2 }}</h4>
+
+            <div id="example2" class="collapse">
+            <p>{{ page.example2p1 }}</p>
+            <p>{{ page.example2p2 }}</p>
+            <p>{{ page.example2p3 }}</p>
             </div>
             {% endif %}
             
+            <hr>
             <h3>Path Forward</h3>
             <p>{{ page.forward }}</p>
-            <a href="{{ "/v1.0/" | prepend: site.baseurl }}" class="btn btn-theme">Return to Dos and Don'ts</a>
+            <a href="{{ "/v1.0/" | prepend: site.baseurl }}" class="btn btn-theme">Return to Dos and Don'ts List</a>
             <br><br>
         </div>
     

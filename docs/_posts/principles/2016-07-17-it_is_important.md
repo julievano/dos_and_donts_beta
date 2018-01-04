@@ -1,6 +1,6 @@
 ---
 layout: principle
-title:  "Guiding Principle"
+title:  "Guiding Principle I"
 principle: "It is important to evaluate climate risk."
 shorttitle: "Our first guiding principle"
 tagline: "click here to read more (version 1.0)"

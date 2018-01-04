@@ -1,9 +1,9 @@
 ---
 layout: principle
-title:  "Guiding Principle"
+title:  "Guiding Principle III"
 principle: "Uncertainty is everyone's responsibility."
 shorttitle: "Our third guiding principle"
-tagline: "will be included in version 2.0, text coming soon..."
+tagline: "in version 2.0, coming soon..."
 ref:
 date:   2017-06-01 16:54:46
 categories:
@@ -14,4 +14,4 @@ tags: []
 
 ---
 
-Coming soon, text is under development... (will be included in version 2.0)
+Included in version 2.0, coming soon...

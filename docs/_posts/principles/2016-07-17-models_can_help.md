@@ -1,6 +1,6 @@
 ---
 layout: principle
-title: Guiding Principle
+title: Guiding Principle II
 principle:  "Models are useful tools, if used appropriately."
 shorttitle: "Our second guiding principle" 
 tagline: "click here to read more (version 1.0)"

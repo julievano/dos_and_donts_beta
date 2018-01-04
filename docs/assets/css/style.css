@@ -153,8 +153,8 @@ a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: #0a75a1;
-  border-color: #0a75a1;
+  background-color: #004054;
+  border-color: #004054;
 }
 
 .dmbutton:hover,
@@ -232,7 +232,7 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: #0a75a1;
+	background-color: #004054;
 	min-height: 0px;
 	padding-top: 110px;
 	padding-bottom: 20px;
@@ -260,7 +260,7 @@ a:focus {
 }
 
 #service i {
-	color: #0a75a1;
+	color: #004054;
 	font-size: 60px;
 	padding: 15px;
 }
@@ -308,14 +308,14 @@ a:focus {
 {
 	height:100%;
 	width:100%;
-	background-color:#0a75a1;
+	background-color:#004054;
 	background-color:rgba(0,179,254,.9);
 	text-align:center;
 }
 
 /* Testimonials Wrap */
 #twrapback {
-    background-color: #0a75a1;
+    background-color: #004054;
     background-color:rgba(0,179,254,.8);
     position: absolute;
     top: 0;
@@ -392,7 +392,7 @@ a:focus {
 }
 
 #footerwrap i:hover {
-	color: #0a75a1
+	color: #004054
 }
 
 /*	################################################################
@@ -401,7 +401,7 @@ a:focus {
 /* General Tweaks */
 
 #blue {
-	background: #0a75a1;
+	background: #004054;
 	margin-top: 0px;
 	margin-bottom: 60px;
 	padding-top: 110px;
@@ -436,7 +436,7 @@ a:focus {
 }
 
 .ctitle {
-	color: #0a75a1;
+	color: #004054;
 	font-weight: 700;
 	margin-bottom: 15px;
 }
@@ -452,7 +452,7 @@ csmall {
 }
 
 .badge-theme {
-	background: #0a75a1;
+	background: #004054;
 }
 
 /* Contact Page */

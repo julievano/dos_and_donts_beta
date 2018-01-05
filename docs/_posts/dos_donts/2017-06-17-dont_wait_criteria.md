@@ -10,7 +10,7 @@ categories:
 img: criteria.png
 img2: 
 tags: []
-shortwhy: "X"
+shortwhy: "It is important to draw the bullseye before throwing the darts."
 whyp1: "Clearly articulating how climate-related decisions will be assessed before starting to evaluate the data will provide a more objective evaluation, more quickly.  It can also help in deciding the best approach (e.g., the level of detail needed, section 4.2) and guide model selection (e.g., Appendix A).  All together, this will help insure the climate change information is fit for purpose in that the information obtained is appropriate for the questions that are being asked of it."
 faq1: "What are climate change evaluation criteria?"
 faq1p1: "Evaluations can include a variety of criteria (Table 2).  Being specific about the criteria helps to define an approach and determine whether the change is significant, i.e., how big of a change matters and with what degree of confidence.  Rarely, however, is there just a single concern and decision makers must prioritize (Palmer et al. 1999).  This list provides examples; additional water-related climate impacts can be found in past guidance (e.g., EPA and CWDR 2011, Box 4-1) and an overview of a range of hydroclimate metrics and their relative ability to characterize hydrologic changes can be found in Ekström et al. (in review)."

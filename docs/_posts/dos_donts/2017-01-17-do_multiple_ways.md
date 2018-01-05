@@ -4,13 +4,13 @@ title:  Study Design Guideline
 symbol: do
 dodont:  "Do be aware of multiple ways to evaluate future change - climate scenarios are helpful, but there are other tools too"
 ref: do_XX 
-date:   2017-02-01 16:54:46
+date:   2017-01-01 16:54:46
 categories:
 - study_design
 img: multiple_ways.png
 img2: 
 tags: []
-shortwhy: "X"
+shortwhy: "Each approach has strengths and weaknesses."
 whyp1: "Climate change scenarios can provide valuable information to help better understand how the past will differ from the future.  They reveal a non-stationary climate and are often the best tool available (NRC 2012a).  They do, however, have limitations.  For example, the spatial or temporal scales of the data might be too coarse for certain decisions (section 4.6), or other changes (e.g., changing demographics, socioeconomics, land use, and infrastructure demands (Brekke et al. 2009)) eclipse climate pressures (section 4.5).  Additionally, even when climate change scenarios are being used, other investigations may add important insights (Vano et al. 2014; Lehner et al. 2017)."
 faq1: "What are different approaches to evaluating future change?"
 faq1p1: "For perspective, below is a brief overview of four approach categories. This is not an inclusive list, as more exist and more will likely be developed."

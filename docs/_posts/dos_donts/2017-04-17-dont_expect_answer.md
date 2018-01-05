@@ -10,7 +10,7 @@ categories:
 img: unanswerable.png
 img2: 
 tags: []
-shortwhy: "X"
+shortwhy: "Models are useful tools as long as we are honest about their limitations."
 whyp1: "Not every climate change-related question can be answered in a way that leads to a clear choice (Averyt et al. 2013). For the information producers, being clear about what is possible and what is not is an ethical responsibility (CSPWG 2015) and can help identify knowledge gaps and direct research in application-relevant ways (NRC 2012a). For information users, just knowing when approaches reach their limits is useful information as it allows managers and planners to develop appropriate practices for making decisions in a changing world (NRC 2009).  Most water management and planning design decisions depend on the tails of the distribution (floods and droughts) which are inherently difficult and require planning for the unknowns by designing system redundancy and adding safety factors (Stakhiv 2011)."
 faq1: "Can one determine whether questions are answerable before investing time and resources?"
 faq1p1: "In many cases, it is hard to know before doing some analysis. There are, however, several situations where it is best to proceed with caution."

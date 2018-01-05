@@ -3,7 +3,7 @@ layout: do_dont
 title: Study Design Guideline
 symbol: do
 dodont: "Do recognize benefits that go beyond climate change preparedness"
-date: 2017-08-01 16:54:46
+date: 2017-09-01 16:54:46
 ref: do_benefits
 categories:
 - study_design

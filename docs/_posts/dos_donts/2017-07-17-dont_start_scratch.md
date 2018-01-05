@@ -4,7 +4,7 @@ title:  Study Design Guideline
 symbol: dont
 dodont: "Don’t start from scratch; leverage the work and expertise of others"
 ref: dont_start_scratch 
-date:   2017-03-01 16:54:46
+date:   2017-07-01 16:54:46
 categories:
 - study_design
 img: scratch.png

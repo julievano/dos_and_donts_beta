@@ -29,6 +29,7 @@ layout: default
 	    <p>{{ page.whyp1 }}</p>
             <p>{{ page.whyp2 }}</p>
             <p>{{ page.whyp3 }}</p>
+            {% if page.imgwhy %}<img src="{{ page.imgwhy | prepend: "/assets/img/dos_donts/" | prepend: site.baseurl }}">{% endif %}
 	    </div>
             {% if page.faq1 %}<hr>
             <h3>Frequently Asked Questions</h3>
@@ -41,6 +42,7 @@ layout: default
             <p>{{ page.faq1p1 }}</p>
             <p>{{ page.faq1p2 }}</p>
             <p>{{ page.faq1p3 }}</p>
+            {% if page.imgfaq1 %}<img src="{{ page.imgfaq1 | prepend: "/assets/img/dos_donts/" | prepend: site.baseurl }}">{% endif %}
             </div>{% endif %}
 
             {% if page.faq2 %}<h4><a class="text-toggle" data-toggle="collapse" data-target="#faq2" aria-expanded="false">
@@ -52,6 +54,7 @@ layout: default
             <p>{{ page.faq2p1 }}</p>
             <p>{{ page.faq2p2 }}</p>
             <p>{{ page.faq2p3 }}</p>
+            {% if page.imgfaq2 %}<img src="{{ page.imgfaq2 | prepend: "/assets/img/dos_donts/" | prepend: site.baseurl }}">{% endif %}
             </div>{% endif %}
 
             {% if page.example1 %}
@@ -66,6 +69,7 @@ layout: default
             <p>{{ page.example1p1 }}</p>
             <p>{{ page.example1p2 }}</p>
             <p>{{ page.example1p3 }}</p>
+            {% if page.imgexample1 %}<img src="{{ page.imgexample1 | prepend: "/assets/img/dos_donts/" | prepend: site.baseurl }}">{% endif %}
             </div>{% endif %}
 
             {% if page.example2 %}<h4><a class="text-toggle" data-toggle="collapse" data-target="#example2" aria-expanded="false">
@@ -77,9 +81,9 @@ layout: default
             <p>{{ page.example2p1 }}</p>
             <p>{{ page.example2p2 }}</p>
             <p>{{ page.example2p3 }}</p>
+            {% if page.imgexample2 %}<img src="{{ page.imgexample2 | prepend: "/assets/img/dos_donts/" | prepend: site.baseurl }}">{% endif %}
             </div>
             {% endif %}
-            
             <hr>
             <h3>Path Forward</h3>
             <p>{{ page.forward }}</p>

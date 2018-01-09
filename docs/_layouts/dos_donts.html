@@ -5,13 +5,23 @@ layout: default
 
   {{ content }}
 
-{% include study_design.html title="Study Design" %}
+<center><h3> Study Design </h3></center>
+{% include do_dont_button.html  type="study_design" %}
 
-{% include models.html title="Model Selection" %}
-<center><p> More details coming soon... </p></center>
+<center><h3> Model Selection  </h3></center>
+<div class="container mtb">
+  <p>The DOS and DON'TS below are being drafted and will consitute the majority of updates for version 2.0, coming soon.  If you click below, you won't (yet) see the guidance, but you will be able to make comments and indicate ones of greater interest to you (which will help us focus our efforts).  You can also sign up to get a notice once they are posted... </p>
+</div><! --/container -->
+{% include do_dont_button.html type="model_selection" %}
 <p>&nbsp</p>
-{% include models.html title="Data Interpretation" %}
-<center><p> More details coming...  </p></center>
+
+<center><h3> Data Interpretation </h3></center>
+<div class="container mtb">
+  <p>The DOS and DON'TS below are conceptualized and will be the next focus area following verison 2.0.  If you click below, you can make comments and indicate ones of greater interest to you (which will help us determine which ones should be completed first).  You can also sign up to get a notice once they are posted... </p>
+{% include do_dont_button.html type="data_interpretation" %}
+
+
+</div><! --/container -->
 <p>&nbsp</p>
 <p>&nbsp</p>
 {% include sponsors.html %}

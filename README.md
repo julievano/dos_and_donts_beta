@@ -6,3 +6,5 @@ Platform for information exchange on the proper use of climate information in wa
 ![Analytics](https://ga-beacon.appspot.com/UA-110073441-2/dos_and_donts/readme2)
 
 ![Analytics](https://ga-beacon.appspot.com/UA-110073441-2/dos_and_donts/justapixel?pixel)
+
+![Analytics](https://julievano.github.io/dos_and_donts/track/)

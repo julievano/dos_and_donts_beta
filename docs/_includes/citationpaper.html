@@ -1,5 +1,5 @@
 {% for post in posts %}
-<ul> {{ post.authorlist }}, {{ post.date | date: "%Y" }}: {{ post.title }}. <i> {{ post.journal }}</i>, 
+<ul> {{ post.authorlist }}, {{ post.year }}: {{ post.title }}. <i> {{ post.journal }}</i>, 
 	{% if post.volume %} <b>{{ post.volume }}</b>,{% endif %} 
 	{% if post.pages %}{{ post.pages }},{% endif %}
         {% if post.review %}{{ post.review }}{% endif %} 

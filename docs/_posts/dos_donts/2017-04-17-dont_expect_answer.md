@@ -3,7 +3,7 @@ layout: do_dont
 title:  Study Design Guideline
 symbol: do
 dodont:  "Don’t expect every climate change question will be answerable with currently available models and datasets"
-ref: do_XX 
+ref: "DON'T expect answer" 
 date:   2017-04-01 16:54:46
 categories:
 - study_design

@@ -3,7 +3,7 @@ layout: do_dont_conceptual
 title:  Data Interpretation Guideline
 symbol: do
 dodont:  "Do interpret probabilistic information with the appropriate context"
-ref:  
+ref: "DO interpret probabilities" 
 date: 2015-10-01 16:54:46
 categories:
 - data_interpretation

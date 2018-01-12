@@ -3,7 +3,7 @@ layout: do_dont_coming_soon
 title:  Model Selection Guideline
 symbol: do
 dodont:  "Do understand the importance of the climate change question in model selection"
-ref: do understand question 
+ref: "DO understand question"
 date: 2016-09-01 16:54:46
 categories:
 - model_selection

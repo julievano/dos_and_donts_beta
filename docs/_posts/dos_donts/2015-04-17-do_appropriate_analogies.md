@@ -3,7 +3,7 @@ layout: do_dont_conceptual
 title:  Data Interpretation Guideline
 symbol: do
 dodont:  "Do use analogies appropriately"
-ref:  
+ref: "DO appropriate analogies" 
 date: 2015-04-01 16:54:46
 categories:
 - data_interpretation

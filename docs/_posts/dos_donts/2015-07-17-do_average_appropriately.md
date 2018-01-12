@@ -3,7 +3,7 @@ layout: do_dont_conceptual
 title:  Data Interpretation Guideline
 symbol: do
 dodont:  "Do average across models appropriately"
-ref:  
+ref: "DO average appropriately" 
 date: 2015-07-01 16:54:46
 categories:
 - data_interpretation

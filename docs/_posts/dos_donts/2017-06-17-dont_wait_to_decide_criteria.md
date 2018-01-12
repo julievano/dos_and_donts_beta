@@ -3,7 +3,7 @@ layout: do_dont
 title:  Study Design Guideline
 symbol: dont
 dodont:  "Don’t wait to decide evaluation criteria for assessing climate impacts "
-ref: dont_wait_criteria
+ref: "DON'T wait to decide criteria"
 date:   2017-06-01 16:54:46
 categories:
 - study_design

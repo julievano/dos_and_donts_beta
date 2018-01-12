@@ -3,7 +3,7 @@ layout: do_dont
 title:  Study Design Guideline
 symbol: do
 dodont:  "Do be aware of multiple ways to evaluate future change - climate scenarios are helpful, but there are other tools too"
-ref: do_XX 
+ref: "DO multiple ways" 
 date:   2017-01-01 16:54:46
 categories:
 - study_design

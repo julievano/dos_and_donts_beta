@@ -3,7 +3,7 @@ layout: do_dont
 title:  Study Design Guideline
 symbol: do
 dodont:  "Do plan for iterations as the first time you download climate data should not be your last"
-ref: do_XX 
+ref: "DO iterations" 
 date:   2017-02-01 16:54:46
 categories:
 - study_design

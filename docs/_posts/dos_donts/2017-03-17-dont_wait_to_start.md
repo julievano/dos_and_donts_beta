@@ -3,7 +3,7 @@ layout: do_dont
 title:  Study Design Guideline
 symbol: dont
 dodont:  "Don’t wait until new information is available, there will always be new research and models coming soon"
-ref: do_XX 
+ref: "DON'T wait to start"
 date:   2017-03-01 16:54:46
 categories:
 - study_design

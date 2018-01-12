@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mtb2">
+
+    {% if page.symbol == "dont" %}<h2><span class="glyphicon glyphicon-remove-circle" style="color:FireBrick"></span> {{ page.dodont }}</h2>{% endif %}
+    {% if page.symbol == "do" %}<h2><span class="glyphicon glyphicon-ok-circle" style="color:SeaGreen"></span> {{ page.dodont }}</h2>{% endif %}
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <!--<div class="spacing"></div>-->
+        </div>
+
+        <div class="col-lg-9 col-lg-offset-1 col-md-9 col-md-offset-1 col-sm-offset-1">
+            <div class="spacing"></div>
+
+            {% if page.whyp1 %}<h3>Why</h3>
+            <p>{{ page.whyp1 }}</p>
+            <p>{{ page.whyp2 }}</p>
+            <p>{{ page.whyp3 }}</p>{% endif %}
+
+            </div>
+        </div>
+            <hr>
+            <p> Thanks for expressing interest in this guideline.  More details will be included in version 2.0, coming soon.  If you would like to be updated when more information is posted, let us know (submit your email below). </p>
+            <div class="form-group">
+               <label for="InputEmail1">Email</label>
+               <input type="email" class="form-control" id="exampleInputEmail1">
+               <button type="submit" class="btn btn-theme">Submit</button>
+            </div>
+            <p> PLEASE NOTE: The submit function is NOT currently working.  Use this <a href="mailto:jvano @ ucar.edu">link</a> to send an email instead. </p>  
+
+            <a href="{{ "/v1.0/" | prepend: site.baseurl }}" class="btn btn-theme">Return to list of DOS and DON'TS</a>
+            <br><br>
+        </div>
+    
+    </div><! --/row -->
+</div><! --/container -->
+
+
+

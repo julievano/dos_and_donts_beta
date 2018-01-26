@@ -43,7 +43,10 @@ layout: default
             <p>{{ page.faq1p2 }}</p>
             <p>{{ page.faq1p3 }}</p>
             {% if page.imgfaq1 %}<img src="{{ page.imgfaq1 | prepend: "/assets/img/dos_donts/" | prepend: site.baseurl }}">{% endif %}
+            {% if page.faq1link %}Learn more about:<a href="{{ page.faq1link | prepend: site.baseurl }}" > {{ page.faq1linkt }}</a>{% endif %}
+            {% if page.faq1link2 %}; <a href="{{ page.faq1link2 | prepend: site.baseurl }}" > {{ page.faq1linkt2 }} </a>{% endif %}
             </div>{% endif %}
+
 
             {% if page.faq2 %}<h4>{{ page.faq2 }}</h4>
             <a class="btn btn-default text-toggle" data-toggle="collapse" data-target="#faq2" aria-expanded="false">

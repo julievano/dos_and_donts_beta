@@ -33,11 +33,11 @@ layout: default
 	    </div>
             {% if page.faq1 %}<hr>
             <h3>Frequently Asked Questions</h3>
-	    <h4><a class="text-toggle" data-toggle="collapse" data-target="#faq1" aria-expanded="false">
-               <span class="text-collapsed glyphicon glyphicon-chevron-right"></span>
-               <span class="text-expanded glyphicon glyphicon-chevron-down"></span>
-            </a>{{ page.faq1 }}</h4>
-
+	    <h4>{{ page.faq1 }}</h4><a class="btn btn-default text-toggle" data-toggle="collapse" data-target="#faq1" aria-expanded="false">
+               <span class="text-collapsed">answer</span>
+               <span class="text-expanded">less</span>
+               <i class="fa fa-angle-right"></i>
+            </a> 
             <div id="faq1" class="collapse">
             <p>{{ page.faq1p1 }}</p>
             <p>{{ page.faq1p2 }}</p>
@@ -45,10 +45,13 @@ layout: default
             {% if page.imgfaq1 %}<img src="{{ page.imgfaq1 | prepend: "/assets/img/dos_donts/" | prepend: site.baseurl }}">{% endif %}
             </div>{% endif %}
 
-            {% if page.faq2 %}<h4><a class="text-toggle" data-toggle="collapse" data-target="#faq2" aria-expanded="false">
-               <span class="text-collapsed glyphicon glyphicon-chevron-right"></span>
-               <span class="text-expanded glyphicon glyphicon-chevron-down"></span>
-            </a>{{ page.faq2 }}</h4>
+            {% if page.faq2 %}<h4>{{ page.faq2 }}</h4>
+            <a class="btn btn-default text-toggle" data-toggle="collapse" data-target="#faq2" aria-expanded="false">
+               <span class="text-collapsed">more</span>
+               <span class="text-expanded">Less info</span>
+               <i class="fa fa-angle-right"></i>
+            </a>
+
 
             <div id="faq2" class="collapse">
             <p>{{ page.faq2p1 }}</p>
@@ -60,11 +63,12 @@ layout: default
             {% if page.example1 %}
             <hr>
             <h3>Examples</h3>
-            <h4><a class="text-toggle" data-toggle="collapse" data-target="#example1" aria-expanded="false">
-               <span class="text-collapsed glyphicon glyphicon-chevron-right"></span>
-               <span class="text-expanded glyphicon glyphicon-chevron-down"></span>
-            </a>{{ page.example1 }}</h4>
-
+            <h4>{{ page.example1 }}</h4>
+            <a class="btn btn-default text-toggle" data-toggle="collapse" data-target="#example1" aria-expanded="false">
+               <span class="text-collapsed">details</span>
+               <span class="text-expanded">less</span>
+               <i class="fa fa-angle-right"></i>
+            </a>
             <div id="example1" class="collapse">
             <p>{{ page.example1p1 }}</p>
             <p>{{ page.example1p2 }}</p>
@@ -72,10 +76,12 @@ layout: default
             {% if page.imgexample1 %}<img src="{{ page.imgexample1 | prepend: "/assets/img/dos_donts/" | prepend: site.baseurl }}">{% endif %}
             </div>{% endif %}
 
-            {% if page.example2 %}<h4><a class="text-toggle" data-toggle="collapse" data-target="#example2" aria-expanded="false">
-               <span class="text-collapsed glyphicon glyphicon-chevron-right"></span>
-               <span class="text-expanded glyphicon glyphicon-chevron-down"></span>
-            </a>{{ page.example2 }}</h4>
+            {% if page.example2 %}<h4>{{ page.example2 }}</h4>
+            <a class="btn btn-default text-toggle" data-toggle="collapse" data-target="#example2" aria-expanded="false">
+               <span class="text-collapsed">details</span>
+               <span class="text-expanded">less</span>
+               <i class="fa fa-angle-right"></i>
+            </a>
 
             <div id="example2" class="collapse">
             <p>{{ page.example2p1 }}</p>

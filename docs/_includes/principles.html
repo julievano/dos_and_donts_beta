@@ -1,9 +1,9 @@
 <a name="principles" class="anchor"></a>
-<div id="portfoliowrap">
-    <div class="portfolio-centered">
+<div class="container mtb">
+    <div class="row centered">
         {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
-        <div class="recentitems portfolio">
             {% for project in site.categories['principles'] limit:include.limit %}
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="portfolio-item graphic-design">
                     <div class="he-wrap tpl6">
                     <img src="{{ "/assets/img/about/" | prepend: site.baseurl }}{{ project.img }}" alt="">
@@ -16,7 +16,7 @@
                         </div><!-- he view -->		
                     </div><!-- he wrap -->
                 </div><!-- end col-12 -->
+                </div><!-- end col-lg -->
             {% endfor %}
-        </div><!-- portfolio -->
     </div><!-- portfolio container -->
-</div><!--/Portfoliowrap -->
+</div><! --/container -->

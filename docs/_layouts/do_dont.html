@@ -21,7 +21,7 @@ layout: default
             <p>{{ page.shortwhy }}</p>
             <a class="btn btn-default text-toggle" data-toggle="collapse" data-target="#why" aria-expanded="false">
                <span class="text-collapsed">more</span>
-               <span class="text-expanded">Less info</span>
+               <span class="text-expanded">less info</span>
                <i class="fa fa-angle-right"></i>
             </a>
 
@@ -35,7 +35,7 @@ layout: default
             <h3>Frequently Asked Questions</h3>
 	    <h4>{{ page.faq1 }}</h4><a class="btn btn-default text-toggle" data-toggle="collapse" data-target="#faq1" aria-expanded="false">
                <span class="text-collapsed">answer</span>
-               <span class="text-expanded">less</span>
+               <span class="text-expanded">hide answer</span>
                <i class="fa fa-angle-right"></i>
             </a> 
             <div id="faq1" class="collapse">
@@ -47,8 +47,8 @@ layout: default
 
             {% if page.faq2 %}<h4>{{ page.faq2 }}</h4>
             <a class="btn btn-default text-toggle" data-toggle="collapse" data-target="#faq2" aria-expanded="false">
-               <span class="text-collapsed">more</span>
-               <span class="text-expanded">Less info</span>
+               <span class="text-collapsed">answer</span>
+               <span class="text-expanded">hide answer</span>
                <i class="fa fa-angle-right"></i>
             </a>
 

@@ -2,7 +2,7 @@
 layout: do_dont
 title:  Study Design Guideline
 symbol: do
-dodont:  "Do start by determining the level of detail that fits your need and resources"
+dodont:  "DO start by determining the level of detail that fits your need and resources"
 ref: "DO determine level of detail" 
 date:   2017-08-01 16:54:46
 categories:

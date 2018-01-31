@@ -2,7 +2,7 @@
 layout: do_dont
 title:  Study Design Guideline
 symbol: dont
-dodont:  "Don’t wait until new information is available, there will always be new research and models coming soon"
+dodont:  "DON’T wait until new information is available, there will always be new research and models coming soon"
 ref: "DON'T wait to start"
 date:   2017-03-01 16:54:46
 categories:
@@ -10,7 +10,7 @@ categories:
 img: dont_wait.png
 img2: 
 tags: []
-shortwhy: "Setting up evaluation systems and information sharing can be done in advance of finalize results."
+shortwhy: "Much of the work of a study can be done prior obtaining the latest new information."
 whyp1: "Climate change evaluations for water resource planning and management usually require data processing and linking one model’s output to the next model’s input (Reclamation 2016; Brekke et al. 2009).  Therefore, setting up and running the model chain in its entirety with a single simulation is arguably a large portion of the work, especially if processes can be automated (see section 4.8).  Each step can have unforeseen challenges, and important lessons that might reshape how project goals are achieved.  For example, having preliminary numbers to work with can help refine evaluation criteria (Table 2).  Early feedback on how the information is shared can prevent time being wasted creating information that is not useful. Additionally, in many cases, the newest scenarios provide similar trends to earlier versions and can be useful for preliminary evaluations."
 whyp2: "Earlier consideration of climate impacts has the potential to save resources, as it is easier to include climate vulnerability assessments during the design phase of a project rather than having to restructure mature facilities (PIEVC 2008)."
 faq1: "What are common challenges the first time a study is conducted?"

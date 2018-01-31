@@ -2,7 +2,7 @@
 layout: do_dont
 title:  Study Design Guideline
 symbol: do
-dodont:  "Do identify the major uncertainties that will impact your decision and assess their magnitude"
+dodont:  "DO identify the major uncertainties that will impact your decision and assess their magnitude"
 ref: "DO id uncertainty" 
 date:   2017-05-01 16:54:46
 categories:

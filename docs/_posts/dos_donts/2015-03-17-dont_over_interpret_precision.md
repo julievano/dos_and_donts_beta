@@ -1,7 +1,7 @@
 ---
 layout: do_dont_conceptual
 title:  Data Interpretation Guideline
-symbol: do
+symbol: dont
 dodont:  "DON'T get seduced by precision"
 ref: "DON'T over interpret precision" 
 date: 2015-03-01 16:54:46

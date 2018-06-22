@@ -1,7 +1,7 @@
 ---
 layout: do_dont_conceptual
 title:  Data Interpretation Guideline
-symbol: do
+symbol: dont
 dodont:  "DON'T focus on any single year or even single decade for determining the future climate response"
 ref: "DON'T focus single year"  
 date: 2015-09-01 16:54:46

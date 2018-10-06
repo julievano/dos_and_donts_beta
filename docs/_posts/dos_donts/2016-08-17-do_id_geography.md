@@ -2,7 +2,7 @@
 layout: do_dont_coming_soon
 title:  Model Selection Guideline
 symbol: do
-dodont:  "DO understand how geography can help inform model selection"
+dodont:  "DO select models that capture important geographic features"
 ref: "DO id geography" 
 date:   2016-08-01 16:54:46
 categories:

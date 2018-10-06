@@ -1,7 +1,7 @@
-# Computational-Hydrology
-The webpages of the NCAR/RAL/HAP Computational Hydrology Group
+# DOS AND DONT'S
+The webpages of an effort to make climate change information easier to navigate.
 
-Welcome to our webpage.  We thank the designers of Solid for providing a great template.
+Welcome.  We thank the designers of Solid for providing a great template.
 
 ============
 

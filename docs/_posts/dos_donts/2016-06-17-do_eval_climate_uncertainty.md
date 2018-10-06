@@ -10,7 +10,7 @@ categories:
 img: climate_uncertainty.png
 img2: 
 tags: []
-whyp1: "A single realization of future climate cannot capture key sources of uncertainties, including three highlighted by the IPCC: future emissions, physical system representation, and natural variability.  Each of these uncertainties can be explored using multiple global climate model realizations.  Therefore, consideration of whether and how to approach these uncertainties should inform which realizations are used."
+whyp1: "Climate model simulations are representations of the complex Earth system.  A single realization of future climate cannot capture key sources of uncertainties, including three highlighted by the IPCC: future emissions, physical system representation, and natural variability.  Each of these uncertainties can be explored using multiple global climate model realizations.  Therefore, consideration of whether and how to approach these uncertainties should inform which realizations are used."
 whyp2:
 whyp3:
 ---

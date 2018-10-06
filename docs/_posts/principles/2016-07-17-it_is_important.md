@@ -23,6 +23,6 @@ tags: []
 
 <p>Various methods exist to better understand and prepare for future changes in climate. <b>All evaluations of a water system’s vulnerabilities to climate change need to start somewhere and can be refined and become more comprehensive over time.</b> Depending on a project’s goals, resources, and other tradeoffs, consideration of climate impacts in water planning can occur at multiple levels, from general regional temperature trends to detailed evaluations of changes in reservoir storage. The option exists of doing nothing, but this should be a conscious and informed decision. If not, simply ignoring climate risk may result in being unprepared or unable to adapt – a risk water agencies, cities, counties, states, and many others are increasingly less willing to take (Vogel et al. 2015; EPA and CWDR 2011).</p>
 
-
+<p>Text orginally published in Vano et al., <i>Climate Services</i>, 2018</p>
 
 

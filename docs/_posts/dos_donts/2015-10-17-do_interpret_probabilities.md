@@ -12,7 +12,7 @@ img2:
 tags: []
 shortwhy:
 whyp1: "Probability distributions are helpful as they provide a range and more likely outcomes.  They can, however, give a false sense of knowing the underlying distribution.   This is particularly true for global climate model simulations as they are not designed to give an unbias estimate of the range of uncertainties.   While there is a recognized need to know how to better combine quantifiable (from ensembles) with unquantifiable (from knowledge gaps) information (NRC 2012), there are also ways to use what we know now to better interpret probabilistic information."  
-whyp2: "This DO will provide better practies for interpreting climate change related probablities."
+whyp2: "This DO will provide better practices for interpreting climate change related probabilities."
 whyp3:
 faq1:
 faq1p1:

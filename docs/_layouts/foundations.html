@@ -39,6 +39,19 @@ layout: default
     <h3><center> References </h3></center>
     <p> Below are key references used in constructing the DOS AND DON'TS.  They are arranged by date to elevate the most recent work. The complete alphabetical list of references for Version 1.0 can be found <a href="{{ "/assets/img/foundations/dos_and_donts_version1.0_references.pdf" | prepend: site.baseurl }}" target="_blank"> HERE</a>.</p>
 
+
+    {% if site.tags.papers2020 %} <p><b>2020</b></p> {% endif %}
+    {% assign posts = site.tags.papers2020 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2019 %} <p><b>2019</b></p> {% endif %}
+    {% assign posts = site.tags.papers2019 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2018 %} <p><b>2018</b></p> {% endif %}
+    {% assign posts = site.tags.papers2018 %}
+    {% include citationpaper.html %}
+
     {% if site.tags.papers2017 %} <p><b>2017</b></p> {% endif %}
     {% assign posts = site.tags.papers2017 %}
     {% include citationpaper.html %}
